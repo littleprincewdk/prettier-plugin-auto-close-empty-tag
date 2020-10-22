@@ -1,0 +1,36 @@
+{
+  "name": "prettier-plugin-auto-close-empty-tag",
+  "version": "1.0.0",
+  "description": "a prettier plugin to auto close empty tag",
+  "main": "./src/index",
+  "keywords": [
+    "prettier",
+    "html",
+    "tag",
+    "emptyTag",
+    "selfClosing"
+  ],
+  "author": "littleprincewdk <2889110370@qq.com>",
+  "homepage": "https://github.com/littleprincewdk/prettier-plugin-auto-close-empty-tag#readme",
+  "repository": "https://github.com/littleprincewdk/prettier-plugin-auto-close-empty-tag.git",
+  "license": "",
+  "scripts": {
+    "test": "node ./test",
+    "lint:script": "eslint . --ext '.js' --report-unused-disable-directives",
+    "lint-fix:script": "npm run lint:script -- --fix"
+  },
+  "dependencies": {
+    "prettier": "^2.1.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-angular": "^8.2.0",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "husky": "^3.0.9",
+    "lint-staged": "^9.4.2"
+  }
+}
