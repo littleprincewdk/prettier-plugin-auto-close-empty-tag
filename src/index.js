@@ -21,7 +21,7 @@ module.exports = {
         }
         if (options.autoCloseEmptyTag) {
           text = text.replace(
-            /<\s*?(\S+)([\s\S]*?)(?<!\/)>\s*?<\/\1\s*?>/gm,
+            /<\s*?(\S+)([^>]*?)(?<!\/)>\s*?<\/\1\s*?>/gm,
             (_, tag, attributes) => `<${tag}${attributes} />`,
           );
         }
