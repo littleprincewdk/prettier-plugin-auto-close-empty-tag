@@ -1,6 +1,6 @@
 {
   "name": "prettier-plugin-auto-close-empty-tag",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a prettier plugin to auto close empty tag",
   "main": "./src/index",
   "keywords": [
